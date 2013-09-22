@@ -16,6 +16,6 @@ increment = 0.05
 
 for (x = lower_x_bound; x <= upper_x_bound; x += increment) {
 	y =2*x^2+3		#Insert formula here
-	print x, ",", y, "\n";
+	print x, "\t", y, "\n";
 }
 quit
