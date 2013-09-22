@@ -1,0 +1,21 @@
+/*
+graph_data.bc
+Prints some graph data
+Written by J Durston
+22 JUL 2012
+v0.2
+*/
+
+scale = 10;
+
+auto x, lower_x_bound, upper_x_bound, increment, y;
+
+lower_x_bound = -2
+upper_x_bound = 2
+increment = 0.05
+
+for (x = lower_x_bound; x <= upper_x_bound; x += increment) {
+	y =2*x^2+3		#Insert formula here
+	print x, ",", y, "\n";
+}
+quit
